@@ -1,0 +1,765 @@
+\documentclass[a4paper, 12pt]{report}
+
+% ============================================================
+% PACKAGES
+% ============================================================
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{makeidx}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage{eurosym}
+\usepackage{caption}
+
+\usetikzlibrary{arrows.meta, positioning}
+
+\numberwithin{equation}{chapter}
+\numberwithin{figure}{chapter}
+\numberwithin{table}{chapter}
+
+\newcommand{\ind}[1]{\mathbf{1}_{\{#1\}}}
+
+% ============================================================
+% HEADERS & FOOTERS
+% ============================================================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\normalsize\leftmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{15pt}
+\setlength{\headsep}{25pt}
+
+% ============================================================
+% MARGINS
+% ============================================================
+\geometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
+
+% ============================================================
+% COLOURS & TITLE FORMATTING
+% ============================================================
+\definecolor{chaptercolor}{RGB}{0, 36, 125}
+\definecolor{sectioncolor}{RGB}{0, 102, 204}
+
+\titleformat{\chapter}[hang]
+    {\Large\bfseries\color{chaptercolor}\RaggedRight}
+    {\thechapter}{2pc}{}
+
+\titleformat{\section}[hang]
+    {\large\bfseries\color{sectioncolor}\RaggedRight}
+    {\thesection}{1pc}{}
+
+\titleformat{\subsection}[hang]
+    {\normalsize\bfseries\color{sectioncolor}\RaggedRight}
+    {\thesubsection}{1pc}{}
+
+\titlespacing{\chapter}{0pt}{-2pt}{4ex}
+\titlespacing{\section}{0pt}{4ex}{3ex}
+
+\makeindex
+\setcounter{section}{0}
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+% -------  TITLE PAGE  -------
+\newgeometry{top=1.5cm, bottom=1.8cm, left=2cm, right=2cm}
+\begin{titlepage}
+    \centering
+    \textit{\color{red}Green Finance: Risks and Portfolio Management -- APM\_5FI13\_AE (April 2026)}\\[3cm]
+    \Large
+    \textbf{\color{chaptercolor}Project Report}\\[1.8cm]
+    \fontsize{19.5pt}{25pt}\selectfont\textbf{\color{chaptercolor} Asset Stranding in the EU Power Sector\\
+    under NGFS Scenarios}\\[1.5cm]
+    {\large\textbf{Abdoulaye TRAORE, Sandra Elvira DJEUTSA NGUEMOGNE, Franck Wilson KOUASSI}}\\[0.5cm]
+    {\large\color{sectioncolor} April 5, 2026}\\[2.5cm]
+    \includegraphics[width=0.8\textwidth, height=5.1cm]{Logo-ENSAE.png}\\[3cm]
+    {\normalsize
+    \begin{minipage}[t]{0.45\textwidth}
+        \centering
+        \textbf{Professor:}\\
+        Prof.\ Peter TANKOV
+    \end{minipage}}
+\end{titlepage}
+\restoregeometry
+\newgeometry{left=2cm, right=2cm, top=2cm, bottom=2cm}
+
+\tableofcontents
+
+% =============================================================
+%  INTRODUCTION
+% =============================================================
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+The power sector is responsible for a large share of global greenhouse gas emissions. Under the Paris Agreement, limiting warming to 1.5--2\textdegree C requires a rapid decarbonisation of electricity generation. Tong et al.\ (2019) showed that the committed emissions from existing fossil fuel infrastructure alone could exhaust the 1.5\textdegree C carbon budget, making the early retirement of fossil plants a central element of the energy transition.
+
+When climate policies, particularly carbon pricing, erode the profitability of fossil fuel plants, these assets lose economic value before the end of their expected technical lifetime. They become what the literature calls \textit{stranded assets}. This phenomenon represents a material source of transition risk for plant owners, utilities, and the financial institutions exposed to them (Battiston et al., 2023). Understanding the timing, geography, and magnitude of asset stranding under different policy pathways is therefore essential for both climate policy and financial risk management.
+
+\vspace{0.2cm}
+The core transmission mechanism we model is the following:
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    node distance=0.4cm and 0.3cm,
+    box/.style={draw=chaptercolor, rounded corners=3pt, fill=blue!2,
+                text width=2.2cm, align=center, font=\small,
+                minimum height=0.9cm, inner sep=4pt},
+    arr/.style={-{Stealth[length=4pt]}, thick, color=chaptercolor}
+]
+\node[box] (A) {Carbon\\price};
+\node[box, right=of A] (B) {Operating\\costs};
+\node[box, right=of B] (C) {Plant\\profitability};
+\node[box, right=of C] (D) {Stranding\\risk};
+\node[box, right=of D] (E) {Portfolio\\transition risk};
+\draw[arr] (A) -- (B);
+\draw[arr] (B) -- (C);
+\draw[arr] (C) -- (D);
+\draw[arr] (D) -- (E);
+\end{tikzpicture}
+\end{figure}
+
+In this report, we assess the risk of asset stranding in the EU-27 fossil power sector under three NGFS Phase~5 transition scenarios. Using plant-level data from the Global Power Plant Database (WRI, 2022) and scenario-consistent price trajectories from the REMIND-MAgPIE integrated assessment model (NGFS, 2024), we project plant-level profitability from 2020 to 2050. We identify stranded capacity using an economic margin criterion as our primary definition, complemented by utilisation-based and rule-based alternatives for robustness. Results are aggregated by country and fuel type, and translated into stylised portfolio-level transition risk indicators.
+
+\vspace{1cm}
+\noindent The report is structured as follows :
+
+\vspace{0.2cm}
+Chapter~1 describes the scope and sample construction. 
+Chapter~2 presents the scenario selection and harmonisation procedure. 
+Chapter~3 details plant-level technical parameters. 
+Chapter~4 formalises the profitability model and stranding definitions. 
+Chapter~5 aggregates stranding results at the country level. Chapter~6 constructs portfolio-level risk indicators. 
+Chapter~7 analyses the sensitivity of results to key assumptions. Chapter~8 discusses economic interpretation and policy implications.
+
+
+% =============================================================
+%  CHAPTER 1 -- SCOPE AND SAMPLE
+% =============================================================
+\chapter{Scope and Sample}
+\label{ch:scope}
+
+\section{Data sources}
+
+Our plant-level dataset is the \textbf{Global Power Plant Database} (GPPD), an open-source dataset maintained by the World Resources Institute that covers 34\,936 power plants worldwide (WRI, 2022). For each plant, the GPPD provides the country, fuel type, installed capacity in MW, geographical coordinates, and, when available, the commissioning year. We complement this with two auxiliary sources: \textbf{Eurostat} electricity generation data for calibrating baseline capacity factors, and the \textbf{Global Coal Plant Tracker} (Global Energy Monitor, 2024) for imputing missing commissioning years on coal plants (see Chapter~3).
+
+\section{Sample construction}
+
+We restrict the sample to the \textbf{27 EU member states} and retain only fossil fuel technologies: coal (including lignite), natural gas, and oil. Fuel labels in the raw GPPD are harmonised into these three categories. After filtering, the sample contains \textbf{824 plants} with a total installed capacity of approximately \textbf{314.4~GW}. No duplicates were found. Table~\ref{tab:sample} summarises the composition of the sample by fuel type.
+
+\begin{table}[H]
+\centering
+\caption{Sample composition by fuel type}
+\label{tab:sample}
+\vspace{0.2cm}
+\begin{tabular}{l r r r}
+\toprule
+\textbf{Fuel} & \textbf{Plants} & \textbf{Capacity (GW)} & \textbf{Share (\%)} \\
+\midrule
+Coal   & 279 & 143.3 & 45.6 \\
+Gas    & 439 & 142.2 & 45.2 \\
+Oil    & 106 &  28.9 &  9.2 \\
+\midrule
+\textbf{Total} & \textbf{824} & \textbf{314.4} & \textbf{100.0} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Coal and gas dominate the sample, each representing roughly half of installed capacity. Oil plants are few and small, accounting for less than 10\% of the total.
+
+The main data-quality issue is that \textbf{302 out of 824 plants (36.7\%)} have a missing commissioning year in the GPPD. This is addressed through the imputation procedure described in Section~3.1. All plants have a non-missing capacity value.
+
+\section{Geographical overview}
+
+Figure~\ref{fig:map} shows the geographical distribution of the 824 plants across the EU-27. Coal capacity is concentrated in Germany and Poland, which together account for over 60\% of EU coal-fired capacity. Gas plants are more evenly distributed, with significant clusters in Italy, Spain, Germany, and the Netherlands. Oil plants are small and predominantly located in France, Italy and on Mediterranean islands, where they often serve as backup generation.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/fig1_eu_plants_map.png}
+\caption{Location of 824 fossil fuel power plants in the EU-27. Marker size is proportional to installed capacity; colour indicates fuel type. Source: Authors' plot based on WRI (2022).}
+\label{fig:map}
+\end{figure}
+
+A detailed breakdown of installed capacity by country and fuel type is provided in Appendix~\ref{app:scope}.
+
+
+% =============================================================
+%  CHAPTER 2 -- SCENARIO SELECTION AND HARMONISATION
+% =============================================================
+\chapter{Scenario Selection and Harmonisation}
+\label{ch:scenarios}
+
+\section{The NGFS scenario framework}
+
+The Network for Greening the Financial System (NGFS) provides long-run transition scenarios constructed from process-based Integrated Assessment Models (IAMs). These scenarios translate climate policy narratives into quantitative trajectories of carbon prices, energy prices, electricity generation, and other macroeconomic variables (NGFS, 2024). We use \textbf{NGFS Phase~5 (v5.1)}, the most recent release available at the time of this study, downloaded from the IIASA hosted scenario database.
+
+\section{Choice of model and region}
+
+Among the IAMs available in the NGFS database, we select \textbf{REMIND-MAgPIE 3.3-4.8}, a general equilibrium model developed by the Potsdam Institute for Climate Impact Research (PIK). REMIND is one of the two IAMs used in the ACPR pilot climate stress-testing exercise (Allen et al., 2020) and provides complete trajectories for all the price and generation variables we need. Since the NGFS database does not include an EU-27 region, we use \textbf{EU28} as a proxy. The United Kingdom represents approximately 10\% of the EU28 fossil capacity; while this introduces a slight over-representation of gas-fired assets, the impact on aggregate transition risk indicators remains limited.
+
+\section{Three scenarios}
+
+We select three scenarios that span the transition-risk spectrum, from an orderly transition to a world where current policies are maintained. Table~\ref{tab:scenarios} summarises them.
+
+\begin{table}[H]
+\centering
+\caption{Selected NGFS scenarios}
+\label{tab:scenarios}
+\vspace{0.2cm}
+\begin{tabular}{l l p{7.5cm}}
+\toprule
+\textbf{Scenario} & \textbf{Type} & \textbf{Description} \\
+\midrule
+Net Zero 2050       & Orderly       & Ambitious and early climate policy, compatible with 1.5\textdegree C. Carbon price rises progressively from 2020, reaching ${\sim}$1\,386~\euro/tCO$_2$ by 2050. \\[4pt]
+Delayed Transition  & Disorderly    & No new policy until ${\sim}$2030, then abrupt tightening. Carbon price accelerates sharply after 2030, reaching ${\sim}$953.5~\euro/tCO$_2$ by 2050. \\[4pt]
+Current Policies    & Insufficient  & Only existing policies are maintained. Carbon price remains below 37.2~\euro/tCO$_2$ throughout. Warming exceeds 2.5\textdegree C. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+These three scenarios allow us to compare an orderly transition where stranding is gradual and predictable, a disorderly transition where stranding is concentrated in a short window after 2030, and a baseline with minimal policy-driven stranding but high long-run physical risk.
+
+\section{Variables extracted and unit harmonisation}
+\label{sec:harmonisation}
+
+For each scenario, we extract nine variables from the NGFS database over the period 2020--2050: the carbon price, the electricity price, three fuel prices (coal, gas, oil), and four electricity generation volumes (coal, gas, oil, total). The original NGFS data are reported at five-year intervals; we interpolate linearly to obtain annual values.
+
+All monetary values in the NGFS database are expressed in USD\textsubscript{2010}. We convert them to \textbf{EUR\textsubscript{2024}} using a combined inflation and exchange-rate factor of \textbf{1.33}, obtained as the product of the US CPI inflation factor from 2010 to 2024 (${\approx}$1.438) and the 2024 EUR/USD exchange rate (${\approx}$0.924). Energy prices originally in GJ are converted to MWh using the factor 3.6~GJ/MWh. The further conversion from thermal MWh to electrical MWh, which depends on plant-level thermal efficiency, is described in Chapter~3.
+
+Figure~\ref{fig:carbon} shows the carbon price trajectories under the three scenarios. The divergence is stark: under Net Zero~2050, the carbon price reaches levels that make virtually all unabated fossil generation uneconomic well before 2050, while under Current Policies it provides little incentive for early retirement. Under Delayed Transition, the late start leads to a steeper price ramp after 2030, compressing the adjustment period.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{figures/fig2_carbon_price_trajectories.png}
+\caption{\centering Carbon price trajectories under three NGFS scenarios (REMIND-MAgPIE, EU28 region), in EUR\textsubscript{2024}/tCO$_2$. Source: Authors' plot and conversion based on NGFS Phase~5 (2024).}
+\label{fig:carbon}
+\end{figure}
+
+Electricity price, fuel price, and generation mix trajectories are reported in Appendix~\ref{app:scenarios}. In brief, electricity prices converge to 58--67~\euro/MWh across scenarios by 2050, while fossil fuel prices follow divergent paths reflecting the carbon cost embedded in extraction and transport.
+
+% =============================================================
+%  CHAPTER 3 -- PLANT CHARACTERISTICS
+% =============================================================
+\chapter{Plant Characteristics and Exposure to Transition Risk}
+\label{ch:plants}
+
+This chapter describes how we assign the technical and economic parameters needed to compute plant-level profitability: commissioning year, technical lifetime, emission intensity, thermal efficiency, O\&M costs, and capacity factors.
+
+\section{Commissioning year imputation}
+\label{sec:imputation}
+
+Since 36.7\% of commissioning years are missing in the GPPD, we implement a four-priority imputation strategy:
+
+\begin{enumerate}[nosep]
+    \item \textbf{GPPD original value} (63.3\% of plants): used when available.
+    \item \textbf{GCPT fuzzy matching} (coal only): we match coal plants to the Global Coal Plant Tracker using plant name and country. This recovers 61 out of 279 coal plants (21.9\%).
+    \item \textbf{Median by country and fuel}: for the remaining missing values, we assign the median commissioning year within the same country--fuel group.
+    \item \textbf{Median by fuel} (fallback): used when the country--fuel group is too small.
+\end{enumerate}
+
+\vspace{0.1cm}
+After imputation, the median age of plants in 2020 is 40~years for coal, 18~years for gas, and 30~years for oil (see Table~\ref{tab:age_dist} in Appendix~\ref{app:plants}). The full distribution of commissioning years before and after imputation is shown in Figure~\ref{fig:imputation}.
+
+
+\section{Technical lifetimes}
+
+We assign technical lifetimes following the assumptions in Pfeiffer et al.\ (2016) and Tong et al.\ (2019): \textbf{40 years for coal}, \textbf{35 years for gas}, and \textbf{35 years for oil}. 
+By 2020, 195~plants (23.7\% of the sample) had already exceeded their technical lifetime, while 436~plants (52.9\%) still had more than ten years of remaining life. The coal fleet is the most aged, with a mean age of 41~years, already beyond the assumed 40-year lifetime, while the gas fleet is comparatively young (mean age 20~years).
+
+
+\section{Emission intensity and thermal efficiency}
+
+We derive emission intensities per MWh of \textit{electricity produced} by combining fuel-specific emission factors from IPCC (2006, Vol.~2, Table~2.2) with thermal efficiencies from the IEA and JRC technical literature. The carbon intensity used in the profitability equation is $\varepsilon_f = \text{EF}^{\text{th}}_f \,/\, \eta_f$, expressed in tCO$_2$/MWh\textsubscript{elec}. Table~\ref{tab:parameters} reports all values.
+
+\begin{table}[H]
+\centering
+\caption{Technical and cost parameters by fuel type}
+\label{tab:parameters}
+\vspace{0.2cm}
+\begin{tabular}{l c c c l}
+\toprule
+\textbf{Parameter} & \textbf{Coal} & \textbf{Gas} & \textbf{Oil} & \textbf{Source} \\
+\midrule
+Thermal efficiency $\eta$           & 0.37  & 0.50  & 0.35  & IEA / JRC \\
+EF\textsubscript{thermal} (tCO$_2$/MWh\textsubscript{th})  & 0.341 & 0.202 & 0.267 & IPCC (2006) \\
+$\varepsilon$ (tCO$_2$/MWh\textsubscript{elec})     & 0.920 & 0.404 & 0.762 & = EF\textsubscript{th} / $\eta$ \\
+O\&M cost (\euro/MWh)               & 5     & 4     & 7     & JRC / IEA \\
+Technical lifetime (years)          & 40    & 35    & 35    & Pfeiffer et al.\ (2016) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Coal has the highest carbon intensity per MWh of electricity (0.920~tCO$_2$), more than twice that of gas (0.404). This means that coal plants are far more sensitive to carbon pricing: a carbon price of 100~\euro/tCO$_2$ adds 92~\euro/MWh to coal operating costs but only 40~\euro/MWh to gas.
+
+\section{O\&M costs}
+
+We assign variable operation and maintenance costs of 5~\euro/MWh for coal, 4~\euro/MWh for gas, and 7~\euro/MWh for oil, based on JRC and IEA reference values. These are held constant over the projection horizon. Fixed costs are excluded since they do not affect the marginal operating decision, but this assumption will be discussed later.
+
+
+\section{Capacity factors and their projection}
+
+Baseline capacity factors for 2020 are calibrated from \textbf{Eurostat} country-level electricity generation data: for each country--fuel pair, we compute $\text{CF} = \text{Generation} \,/\, (\text{Capacity} \times 8\,760)$, capped at 0.85 for technical plausibility. A cross-validation against plant-level data from the GCPT (for coal) shows substantial dispersion around the 1:1 line, as expected when comparing country-level averages with individual plant capacity factors (see Appendix~\ref{app:plants}). This dispersion does not invalidate the country-level calibration but should be kept in mind as a source of plant-level uncertainty.
+
+To project capacity factors forward, we scale the 2020 baseline proportionally to the NGFS generation trajectories for each fuel:
+\begin{equation}
+\text{CF}_{f,c,t,s} \;=\; \text{CF}_{f,c,2020} \;\times\; \frac{\text{Gen}_{f,t,s}}{\text{Gen}_{f,2020}}, \quad \text{capped at } 0.85.
+\label{eq:cf}
+\end{equation}
+
+Figure~\ref{fig:cf} shows the projected evolution of capacity factors by fuel type under the three scenarios. For coal, all three scenarios imply a sharp decline from approximately 0.50 in 2020 to near zero by the mid-2030s; Current Policies and Delayed Transition follow nearly identical paths, while Net Zero~2050 declines slightly faster. For gas, capacity factors remain stable around 0.40 until the mid-2020s before declining steeply under all scenarios; Net Zero~2050 reaches near-zero levels by 2035, whereas Current Policies and Delayed Transition decline more gradually but still fall below 0.05 by 2040. For oil, the three scenarios are virtually indistinguishable: capacity factors drop from approximately 0.15 to zero within a few years. These patterns reflect the generation trajectories embedded in the NGFS scenarios, which project a rapid decline of fossil fuel electricity production across all policy pathways in the EU.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=16cm, height = 5.1cm]{figures/fig8_cf_evolution_all_fuels.png}
+\caption{Projected capacity factor evolution by fuel type under three NGFS scenarios (2020--2050). Baseline calibrated from Eurostat 2020 data. Source: authors' calculations.}
+\label{fig:cf}
+\end{figure}
+
+
+% =============================================================
+%  CHAPTER 4 -- PROFITABILITY AND STRANDING
+% =============================================================
+\chapter{Plant Profitability Model and Stranding Definitions}
+\label{ch:profit}
+
+\section{Profitability equation}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+We model the annual operating margin per MWh of plant $p$ at time $t$ under scenario $s$ as:
+\begin{equation}
+\pi_{p,t,s} \;=\; P^{\text{elec}}_{t,s} \;-\; \frac{P^{\text{fuel}}_{f(p),t,s}}{\eta_{f(p)}} \;-\; C^{\text{O\&M}}_{f(p)} \;-\; \varepsilon_{f(p)} \cdot P^{\text{carbon}}_{t,s}
+\label{eq:profit}
+\end{equation}
+where $P^{\text{elec}}_{t,s}$ is the electricity price (\euro/MWh) from NGFS scenario $s$; $P^{\text{fuel}}_{f,t,s}$ is the fuel price in \euro/MWh\textsubscript{th}, divided by the thermal efficiency $\eta_f$ to obtain the fuel cost per MWh of electricity; $C^{\text{O\&M}}_f$ is the variable O\&M cost; and $\varepsilon_f \cdot P^{\text{carbon}}_{t,s}$ is the carbon cost per MWh, with $\varepsilon_f$ the emission intensity from Table~\ref{tab:parameters} and $P^{\text{carbon}}_{t,s}$ the carbon price in \euro/tCO$_2$.
+
+The annual revenue of plant $p$ is then $\Pi_{p,t,s} = \pi_{p,t,s} \times \text{CF}_{f(p),c(p),t,s} \times \text{Cap}_p \times 8\,760$, where $\text{Cap}_p$ is the installed capacity.
+
+\section{Primary stranding definition -- Economic stranding}
+\label{sec:econ_strand}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+Our primary stranding criterion follows the approach of Battiston et al.\ (2023): a plant is considered \textbf{economically stranded} at time $t$ if its operating margin has been negative for $K$ consecutive years:
+\begin{equation}
+\ind{\text{Stranded}^{\text{econ}}_{p,t,s}} \;=\; \ind{\sum_{k=0}^{K-1} \ind{\pi_{p,t-k,s} < 0} \;=\; K}
+\label{eq:econ_strand}
+\end{equation}
+
+We set $K=3$ as the baseline. This definition captures the financial reality relevant for portfolio risk: a plant generating sustained losses cannot service its debt or justify continued operation from an investor's perspective. Once stranded, the plant is assumed to remain offline permanently.
+
+\section{Robustness check I -- Utilisation stranding}
+\label{sec:util_strand}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+As a first robustness alternative, we define a plant as stranded when its projected capacity factor falls below a minimum threshold for $K$ consecutive years:
+\begin{equation}
+\ind{\text{Stranded}^{\text{util}}_{p,t,s}} \;=\; \ind{\sum_{k=0}^{K-1} \ind{\text{CF}_{p,t-k,s} < \text{CF}^{\min}} \;=\; K}
+\label{eq:util_strand}
+\end{equation}
+with $\text{CF}^{\min} = 0.10$ (10\%). This definition captures cases where a plant becomes economically irrelevant even if its per-MWh margin remains marginally positive---for instance, when declining demand for its fuel type reduces utilisation to the point where fixed costs can no longer be covered.
+
+\section{Robustness check II -- Rule-based retirement}
+\label{sec:rb_strand}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+As a second robustness alternative, anchored in Pfeiffer et al.\ (2016) and Tong et al.\ (2019), we consider a purely age-based criterion: a plant is flagged as retired once it exceeds its technical lifetime:
+\begin{equation}
+\ind{\text{Retired}^{\text{RB}}_{p,t}} \;=\; \ind{t \;\geq\; t^{\text{com}}_p + L_{f(p)}}
+\label{eq:rb_strand}
+\end{equation}
+where $t^{\text{com}}_p$ is the commissioning year and $L_{f(p)}$ the technical lifetime. This definition is scenario-independent: it depends only on plant age and fuel type. It provides a useful benchmark to disentangle policy-driven stranding from natural end-of-life retirement.
+
+\section{Profitability results at plant level}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/profit_distribution.pdf}
+\caption{Distribution of plant margins by fuel type and scenario (2030)}
+\label{fig:profit_dist}
+\end{figure}
+
+
+% =============================================================
+%  CHAPTER 5 -- AGGREGATION
+% =============================================================
+\chapter{Aggregation of Stranded Assets and Country Exposure}
+\label{ch:aggregation}
+
+\section{Country-level stranded capacity share}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+For each country $c$, scenario $s$, and year $t$, we compute the share of installed capacity that is stranded under the economic definition:
+\begin{equation}
+\text{Stranded Share}_{c,s,t} = \frac{\displaystyle\sum_{p \in c} \ind{\text{Stranded}^{\text{econ}}_{p,t,s}} \cdot \text{Cap}_p}{\displaystyle\sum_{p \in c} \text{Cap}_p}
+\label{eq:agg}
+\end{equation}
+
+Results are reported at three horizons: 2030, 2040, and 2050. We further decompose by fuel type and by vintage (pre-2000 vs.\ post-2000 commissioning).
+
+\section{Country heatmap}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/heatmap_stranded.pdf}
+\caption{Share of stranded capacity by EU country and scenario (2040)}
+\label{fig:heatmap}
+\end{figure}
+
+\section{Country ranking by transition exposure}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+\begin{table}[H]
+\centering
+\caption{Country-level stranded capacity share -- Net Zero 2050 scenario}
+\label{tab:country_ranking}
+\vspace{0.2cm}
+\begin{tabular}{l r r r r r}
+\toprule
+\textbf{Country} & \textbf{2030 (\%)} & \textbf{2040 (\%)} & \textbf{2050 (\%)} & \textbf{Coal (\%)} & \textbf{Gas (\%)} \\
+\midrule
+-- & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% =============================================================
+%  CHAPTER 6 -- PORTFOLIO
+% =============================================================
+\chapter{Financial Exposure and Portfolio Transition Risk}
+\label{ch:portfolio}
+
+\section{Stylised portfolio construction}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+We construct two stylised financial portfolios exposed to the EU thermal power sector. The first is a \textbf{utilities equity/bond portfolio} where a country's weight is assumed proportional to its national thermal capacity share, with portfolio weights set equal to country GDP shares (or equal weights as a baseline). The second is a \textbf{bank credit proxy}: a hypothetical loan portfolio with exposures allocated by country and utility sector.
+
+\section{Transition-risk score}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+For each scenario $s$ and horizon $t$, the portfolio transition-risk score is computed as a weighted sum of country-level stranded capacity shares:
+\begin{equation}
+\text{TRS}_{s,t} = \sum_{c}\, w_c \cdot \text{Stranded Share}_{c,s,t}
+\label{eq:trs}
+\end{equation}
+where $w_c$ denotes the portfolio weight of country $c$.
+
+\begin{table}[H]
+\centering
+\caption{Portfolio transition-risk score by scenario and horizon}
+\label{tab:portfolio_risk}
+\vspace{0.2cm}
+\begin{tabular}{l r r r}
+\toprule
+\textbf{Scenario} & \textbf{TRS 2030} & \textbf{TRS 2040} & \textbf{TRS 2050} \\
+\midrule
+Net Zero 2050       & -- & -- & -- \\
+Delayed Transition  & -- & -- & -- \\
+Current Policies    & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{figures/portfolio_risk_score.pdf}
+\caption{Portfolio transition-risk score evolution by scenario (2020--2050)}
+\label{fig:trs}
+\end{figure}
+
+
+% =============================================================
+%  CHAPTER 7 -- SENSITIVITY
+% =============================================================
+\chapter{Uncertainty Analysis and Model Risk}
+\label{ch:uncertainty}
+
+\section{Sensitivity analysis}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+We perform sensitivity analysis on the key model parameters. For each parameter, we report the change in aggregate stranded capacity share (EU-27, Net Zero~2050, 2040) when the parameter is varied around its baseline value.
+
+\begin{table}[H]
+\centering
+\caption{Sensitivity of stranded capacity share to key assumptions (Net Zero 2050, 2040)}
+\label{tab:sensitivity}
+\vspace{0.2cm}
+\begin{tabular}{l l r r}
+\toprule
+\textbf{Parameter} & \textbf{Variation} & \textbf{Baseline (\%)} & \textbf{Stressed (\%)} \\
+\midrule
+Carbon price             & $\pm 20\%$      & -- & -- \\
+Electricity price        & $\pm 20\%$      & -- & -- \\
+Gas price                & $\pm 20\%$      & -- & -- \\
+Load factor              & $\pm 10$ pp     & -- & -- \\
+Technical lifetime       & $\pm 5$ years   & -- & -- \\
+Stranding threshold $K$  & $K=1$ vs $K=5$  & -- & -- \\
+Stranding definition     & Utilisation vs Economic & -- & -- \\
+Stranding definition     & Rule-based vs Economic  & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+\section{Model limitations}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+Several sources of model risk should be kept in mind when interpreting the results.
+
+First, the cost structure is stylised: O\&M costs and thermal efficiencies are assumed constant and uniform within fuel categories, which does not capture plant-level heterogeneity. Second, we assume full carbon cost pass-through to electricity prices, which may overstate profitability under competitive market conditions. Third, although we project capacity factors using NGFS generation trajectories, the model does not capture endogenous demand responses at the plant level. Fourth, the model does not account for technological retrofit options such as carbon capture and storage (CCS), which could defer stranding for some plants. Fifth, NGFS scenarios are deterministic trajectories; stochastic variation around them---as modelled by Flora and Tankov (2023)---is not captured in our framework. Finally, the use of a single IAM (REMIND) and a single region (EU28 as proxy for EU27) limits the generalisability of the results; using multiple IAMs would provide a more complete picture of scenario uncertainty.
+
+
+% =============================================================
+%  CHAPTER 8 -- DISCUSSION
+% =============================================================
+\chapter{Economic Interpretation and Policy Implications}
+\label{ch:discussion}
+
+\section{Scenario comparison}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+The three NGFS scenarios produce markedly different stranding patterns. Under \textit{Net Zero~2050}, stranding is progressive and concentrated in coal-rich countries, beginning in the 2020s. Under \textit{Delayed Transition}, stranding is initially limited but accelerates sharply after 2030, creating a concentrated financial shock---the most dangerous scenario from a financial stability perspective. Under \textit{Current Policies}, transition-related stranding is minimal, but long-run physical climate risk accumulates.
+
+\section{Country-level heterogeneity}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+Countries with high coal dependence---Poland, Czechia, Germany, Bulgaria---are most exposed under ambitious transition scenarios. Gas-dependent countries (Italy, Spain, Netherlands) face lower near-term stranding risk given gas's role as a transitional fuel, but remain exposed under Net Zero~2050 beyond 2040, once the carbon price exceeds the threshold at which gas generation becomes unprofitable.
+
+\section{Policy implications}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+These results carry important implications for EU climate and financial policy. The EU ETS carbon price trajectory directly determines the pace and geography of stranding: accelerating the ETS price corridor would front-load stranding risk but reduce its uncertainty. A managed phase-out of coal, with transition support mechanisms for affected regions, could reduce the financial instability associated with abrupt stranding. Macroprudential supervisors---the ECB, national central banks---should monitor bank and insurance exposures to coal-heavy utilities in the most exposed countries.
+
+\section{Limitations and extensions}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+Future work could refine the analysis by incorporating plant-level fuel quality and efficiency data, market design effects on electricity prices, dynamic investment decisions by plant operators, and second-round financial contagion effects. The stochastic scenario framework of Flora and Tankov (2023), which introduces Bayesian learning over scenario probabilities, would be a natural extension to account for scenario uncertainty.
+
+
+% =============================================================
+%  CONCLUSION
+% =============================================================
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+
+[To be rewritten after experiments, just put it to fill in the space]
+
+This report provides a transparent, bottom-up framework to assess stranded asset risk in the EU-27 fossil power sector under NGFS transition scenarios. We combine plant-level data from the Global Power Plant Database with scenario-consistent price and generation trajectories from the REMIND-MAgPIE integrated assessment model, covering 824~fossil fuel plants with a total installed capacity of 314.4~GW across coal, gas, and oil.
+
+Plant-level operating margins are computed from 2020 to 2050 under three scenarios. The carbon cost component---driven by the product of emission intensity and carbon price---is the dominant factor differentiating outcomes across scenarios. Under Net Zero~2050, the carbon price reaches approximately 1\,386~\euro/tCO$_2$ by 2050, rendering coal generation unprofitable in most EU countries well before that date. Under Delayed Transition, the compressed adjustment window after 2030 creates concentrated financial stress. Under Current Policies, policy-driven stranding is minimal.
+
+Our primary stranding definition is economic: a plant is stranded when its margin is negative for three consecutive years. This is complemented by two robustness alternatives---utilisation-based stranding (capacity factor below 10\%) and rule-based retirement (age exceeding technical lifetime)---which confirm the broad patterns while differing in timing and magnitude.
+
+Several limitations should be borne in mind: the reliance on a single IAM, the use of EU28 as a proxy for EU27, the imputation of 36.7\% of commissioning years, and the stylised treatment of plant-level cost heterogeneity. Despite these caveats, the analysis highlights three robust findings. First, the carbon price trajectory is the dominant driver of stranding timing and magnitude. Second, an orderly, early transition produces the most stranding in absolute terms but avoids the sudden financial shocks of a delayed transition. Third, country-level and fuel-level heterogeneity is substantial and must be accounted for in any portfolio-level assessment of transition risk.
+
+
+% =============================================================
+%  APPENDICES
+% =============================================================
+\appendix
+
+\chapter{Supplementary Material -- Scope and Sample}
+\label{app:scope}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14cm, height=10cm]{figures/eu_fossil_capacity_by_fuel.png}
+\caption{Installed fossil fuel capacity by country and fuel type (GW).}
+\label{fig:capacity_bar}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14cm, height=10cm]{figures/missing_commissioning_year_by_country_fuel.png}
+\caption{Share of missing commissioning years by country and fuel type.}
+\label{fig:missing_years}
+\end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Missing commissioning years by fuel type}
+\label{tab:missing_cy}
+\vspace{0.2cm}
+\begin{tabular}{l r r r r}
+\toprule
+\textbf{Fuel} & \textbf{Total} & \textbf{Missing} & \textbf{\% within fuel} & \textbf{\% of all missing} \\
+\midrule
+Coal & 279 & 77  & 27.6 & 25.5 \\
+Gas  & 439 & 171 & 39.0 & 56.6 \\
+Oil  & 106 & 54  & 50.9 & 17.9 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
+
+
+
+\chapter{Supplementary Material -- Scenarios}
+\label{app:scenarios}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=14cm, height=6cm]{figures/fig3_electricity_price_trajectories.png}
+\caption{Electricity price trajectories under three NGFS scenarios (EUR\textsubscript{2024}/MWh).}
+\label{fig:elec_price}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=18cm, height=6cm]{figures/fig4_fuel_price_trajectories.png}
+\caption{Fossil fuel price trajectories under three NGFS scenarios (EUR\textsubscript{2024}/MWh\textsubscript{th}).}
+\label{fig:fuel_price}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=18cm, height=6cm]{figures/fig5_generation_mix_trajectories.png}
+\caption{Electricity generation by fuel type under three NGFS scenarios (MWh/yr).}
+\label{fig:gen_mix}
+\end{figure}
+
+All figures above are from authors with NGFS Phase~5 data.
+
+
+
+
+
+
+
+
+
+
+
+
+\chapter{Supplementary Material -- Plant Characteristics}
+\label{app:plants}
+
+\begin{table}[H]
+\centering
+\caption{Age distribution by fuel type (reference year: 2020)}
+\label{tab:age_dist}
+\vspace{0.2cm}
+\begin{tabular}{l r r r r}
+\toprule
+\textbf{Fuel} & \textbf{Min} & \textbf{Mean} & \textbf{Median} & \textbf{Max} \\
+\midrule
+Coal & 3  & 41.0 & 40 & 112 \\
+Gas  & 3  & 20.3 & 18 & 108 \\
+Oil  & 2  & 30.6 & 30 &  61 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+A few extreme values (e.g.\ ages above 80~years) likely reflect historical commissioning dates for plants that have since been refurbished; these outliers do not affect the median-based analysis.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=16cm, height=5cm]{figures/fig6_commissioning_year_imputation.png}
+\caption{Distribution of commissioning years before and after imputation, by fuel type. Source: authors' calculations.}
+\label{fig:imputation}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=10cm, height=8cm]{figures/fig7_cf_sanity_check.png}
+\caption{Cross-validation of Eurostat-derived capacity factors against GCPT plant-level data (coal only). Source: authors' calculations.}
+\label{fig:cf_check}
+\end{figure}
+
+
+% =============================================================
+%  BIBLIOGRAPHY
+% =============================================================
+\newpage
+\begin{thebibliography}{99}
+
+\bibitem{allen2020}
+Allen, T., Dees, S., Boissinot, J., Caicedo Graciano, C.~M., Chouard, V., Music, A., \& Vernet, L. (2020).
+\textit{Climate-Related Scenarios for Financial Stability Assessment: An Application to France.}
+Banque de France Working Paper No.~774.
+
+
+
+\bibitem{battiston2023}
+Battiston, S., Mandel, A., Monasterolo, I., \& Roncoroni, A. (2023).
+\textit{CLIMACRED: Climate credit risk and corporate valuation.}
+Available at SSRN 4124002.
+
+\bibitem{flora2023}
+Flora, M., \& Tankov, P. (2023).
+\textit{Green investment and asset stranding under transition scenario uncertainty.}
+Energy Economics, 124, 106773.
+
+\bibitem{gem2024}
+Global Energy Monitor (2024).
+\textit{Global Coal Plant Tracker.}
+\url{https://globalenergymonitor.org/projects/global-coal-plant-tracker/}
+
+\bibitem{ipcc2006}
+IPCC (2006).
+\textit{2006 IPCC Guidelines for National Greenhouse Gas Inventories, Volume~2: Energy.}
+Intergovernmental Panel on Climate Change.
+
+\bibitem{ngfs2024}
+Network for Greening the Financial System (2024).
+\textit{NGFS Climate Scenarios, Phase~5.}
+IIASA Scenario Database. \url{https://data.ece.iiasa.ac.at/ngfs/}
+
+\bibitem{pfeiffer2016}
+Pfeiffer, A., Millar, R., Hepburn, C., \& Beinhocker, E. (2016).
+\textit{The `2\textdegree C capital stock' for electricity generation: Committed cumulative carbon emissions from the electricity generation sector and the transition to a green economy.}
+Applied Energy, 179, 1395--1408.
+
+\bibitem{tong2019}
+Tong, D., Zhang, Q., Zheng, Y., Caldeira, K., Shearer, C., Hong, C., Qin, Y., \& Davis, S.~J. (2019).
+\textit{Committed emissions from existing energy infrastructure jeopardize 1.5\textdegree C climate target.}
+Nature, 572(7769), 373--377.
+
+\bibitem{wri2022}
+World Resources Institute (2022).
+\textit{Global Power Plant Database.}
+\url{https://datasets.wri.org/dataset/globalpowerplantdatabase}
+
+\end{thebibliography}
+
+\end{document}
