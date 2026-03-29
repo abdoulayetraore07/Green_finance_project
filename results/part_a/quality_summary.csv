@@ -1,0 +1,16 @@
+column,dtype,missing_values,missing_share_pct
+gppd_idnr,object,0,0.0
+name,object,0,0.0
+country,object,0,0.0
+country_long,object,0,0.0
+fuel,object,0,0.0
+capacity_mw,float64,0,0.0
+commissioning_year,int64,0,0.0
+age_2020_years,int64,0,0.0
+lifetime,int64,0,0.0
+remaining_life_2020_years,int64,0,0.0
+carbon_intensity_tCO2_per_MWh_elec,float64,0,0.0
+om_variable_eur2024_per_MWh,float64,0,0.0
+capacity_factor_2020,float64,0,0.0
+latitude,float64,0,0.0
+longitude,float64,0,0.0
