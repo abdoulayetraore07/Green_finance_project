@@ -1,0 +1,838 @@
+scenario,variable,unit,year,value
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2020,762687906.0999999
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2021,711875021.9599999
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2022,661062137.8199999
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2023,610249253.6800001
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2024,559436369.54
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2025,508623485.4
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2026,455701692.88
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2027,402779900.36
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2028,349858107.84
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2029,296936315.32
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2030,244014522.8
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2031,213620615.12000003
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2032,183226707.44000003
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2033,152832799.76000002
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2034,122438892.08000003
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2035,92044984.40000002
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2036,78362255.64000002
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2037,64679526.88000001
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2038,50996798.120000005
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2039,37314069.36000001
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2040,23631340.6
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2041,23134436.0
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2042,22637531.4
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2043,22140626.8
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2044,21643722.2
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2045,21146817.599999998
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2046,21122532.72
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2047,21098247.84
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2048,21073962.96
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2049,21049678.08
+Current Policies,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2050,21025393.2
+Current Policies,Price|Carbon,EUR2024/tCO2,2020,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2021,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2022,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2023,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2024,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2025,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2026,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2027,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2028,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2029,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2030,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2031,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2032,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2033,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2034,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2035,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2036,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2037,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2038,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2039,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2040,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2041,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2042,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2043,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2044,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2045,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2046,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2047,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2048,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2049,37.24003381392
+Current Policies,Price|Carbon,EUR2024/tCO2,2050,37.24003381392
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2020,10.904991523776001
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2021,10.9750666693248
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2022,11.0451418148736
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2023,11.115216960422401
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2024,11.185292105971202
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2025,11.255367251520001
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2026,11.2489066537344
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2027,11.2424460559488
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2028,11.235985458163197
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2029,11.229524860377596
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2030,11.223064262591995
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2031,11.263207206988797
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2032,11.303350151385597
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2033,11.343493095782398
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2034,11.3836360401792
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2035,11.423778984576
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2036,11.5396479257472
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2037,11.6555168669184
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2038,11.771385808089603
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2039,11.887254749260807
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2040,12.003123690432007
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2041,12.122958030220804
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2042,12.242792370009603
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2043,12.3626267097984
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2044,12.482461049587199
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2045,12.602295389375996
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2046,12.817398396095996
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2047,13.032501402816
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2048,13.247604409536
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2049,13.462707416256
+Current Policies,Price|Primary Energy|Coal,EUR2024/MWh,2050,13.677810422976002
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2020,21.531224844864003
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2021,22.000524456960004
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2022,22.469824069056003
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2023,22.939123681152005
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2024,23.40842329324801
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2025,23.877722905344008
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2026,23.93933678922241
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2027,24.000950673100803
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2028,24.062564556979204
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2029,24.1241784408576
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2030,24.185792324736
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2031,24.8156558850816
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2032,25.445519445427202
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2033,26.075383005772803
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2034,26.705246566118404
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2035,27.33511012646401
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2036,27.72953928460801
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2037,28.123968442752005
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2038,28.518397600896005
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2039,28.912826759040005
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2040,29.30725591718401
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2041,29.756667617510402
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2042,30.206079317836803
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2043,30.655491018163204
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2044,31.1049027184896
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2045,31.554314418816
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2046,31.971458308608003
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2047,32.3886021984
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2048,32.80574608819201
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2049,33.22288997798401
+Current Policies,Price|Primary Energy|Gas,EUR2024/MWh,2050,33.64003386777601
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2020,56.34043246540801
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2021,58.03233033427201
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2022,59.72422820313601
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2023,61.416126072000004
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2024,63.10802394086401
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2025,64.799921809728
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2026,65.840611842432
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2027,66.881301875136
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2028,67.92199190784001
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2029,68.962681940544
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2030,70.00337197324801
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2031,70.18804599125761
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2032,70.3727200092672
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2033,70.5573940272768
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2034,70.7420680452864
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2035,70.926742063296
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2036,72.5680486831104
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2037,74.2093553029248
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2038,75.8506619227392
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2039,77.49196854255361
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2040,79.13327516236802
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2041,80.73265621559041
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2042,82.33203726881281
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2043,83.9314183220352
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2044,85.53079937525762
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2045,87.13018042848002
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2046,88.69617321788161
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2047,90.26216600728321
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2048,91.82815879668483
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2049,93.39415158608645
+Current Policies,Price|Primary Energy|Oil,EUR2024/MWh,2050,94.96014437548806
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2020,118.351700808768
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2021,116.26588676424961
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2022,114.18007271973121
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2023,112.0942586752128
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2024,110.0084446306944
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2025,107.92263058617601
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2026,105.46840223458562
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2027,103.01417388299524
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2028,100.55994553140484
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2029,98.10571717981445
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2030,95.65148882822406
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2031,93.55816290965767
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2032,91.46483699109125
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2033,89.37151107252484
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2034,87.27818515395842
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2035,85.18485923539203
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2036,83.18343590484481
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2037,81.18201257429762
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2038,79.1805892437504
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2039,77.1791659132032
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2040,75.17774258265601
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2041,73.28437151132161
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2042,71.39100043998721
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2043,69.4976293686528
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2044,67.6042582973184
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2045,65.71088722598401
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2046,65.8580472410112
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2047,66.0052072560384
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2048,66.1523672710656
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2049,66.2995272860928
+Current Policies,Price|Secondary Energy|Electricity,EUR2024/MWh,2050,66.44668730112001
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2020,511553231.282
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2021,458863909.7708
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2022,406174588.25960004
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2023,353485266.74840003
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2024,300795945.2372
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2025,248106623.72599998
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2026,215934433.01719996
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2027,183762242.3084
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2028,151590051.5996
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2029,119417860.8908
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2030,87245670.18200001
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2031,76983510.30759999
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2032,66721350.43320001
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2033,56459190.5588
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2034,46197030.6844
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2035,35934870.809999995
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2036,29725154.465999994
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2037,23515438.121999998
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2038,17305721.777999997
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2039,11096005.433999997
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2040,4886289.09
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2041,3965631.7248
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2042,3044974.3595999996
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2043,2124316.9943999997
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2044,1203659.6291999999
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2045,283002.264
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2046,243079.72240000003
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2047,203157.1808
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2048,163234.63919999998
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2049,123312.0976
+Current Policies,Secondary Energy|Electricity|Coal,MWh/yr,2050,83389.556
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2020,828608378.814
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2021,829747449.0376
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2022,830886519.2612001
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2023,832025589.4848001
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2024,833164659.7084
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2025,834303729.932
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2026,765961049.8616
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2027,697618369.7912
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2028,629275689.7208
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2029,560933009.6504
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2030,492590329.58000004
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2031,428361410.1972
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2032,364132490.8144
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2033,299903571.43160003
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2034,235674652.04880002
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2035,171445732.666
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2036,144888770.212
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2037,118331807.758
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2038,91774845.30399999
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2039,65217882.85
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2040,38660920.396
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2041,39263408.549200006
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2042,39865896.7024
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2043,40468384.8556
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2044,41070873.00879999
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2045,41673361.16199999
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2046,41705161.41639999
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2047,41736961.67079999
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2048,41768761.92519999
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2049,41800562.17959999
+Current Policies,Secondary Energy|Electricity|Gas,MWh/yr,2050,41832362.43399999
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2020,45255056.482
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2021,41541510.1072
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2022,37827963.7324
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2023,34114417.3576
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2024,30400870.9828
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2025,26687324.608
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2026,23363948.021199998
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2027,20040571.4344
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2028,16717194.8476
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2029,13393818.2608
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2030,10070441.674
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2031,8056397.784000001
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2032,6042353.894
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2033,4028310.0040000007
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2034,2014266.1140000005
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2035,222.224
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2036,244.44639999999998
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2037,266.6688
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2038,288.8912
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2039,311.11359999999996
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2040,333.336
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2041,350.0028
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2042,366.6696
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2043,383.33639999999997
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2044,400.0032
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2045,416.67
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2046,433.33680000000004
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2047,450.0036
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2048,466.67040000000003
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2049,483.33719999999994
+Current Policies,Secondary Energy|Electricity|Oil,MWh/yr,2050,500.00399999999996
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2020,762687906.0999999
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2021,711875021.9599999
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2022,661062137.8199999
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2023,610249253.6800001
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2024,559436369.54
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2025,508623485.4
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2026,455701692.88
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2027,402779900.36
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2028,349858107.84
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2029,296936315.32
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2030,244014522.8
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2031,211685912.8
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2032,179357302.8
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2033,147028692.79999998
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2034,114700082.8
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2035,82371472.79999998
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2036,67687934.93999998
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2037,53004397.07999999
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2038,38320859.21999999
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2039,23637321.359999996
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2040,8953783.500000002
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2041,6017065.000000002
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2042,3080346.500000001
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2043,143628.00000000052
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2044,-2793090.5
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2045,-5729809.0
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2046,-7145848.12
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2047,-8561887.24
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2048,-9977926.36
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2049,-11393965.479999999
+Delayed transition,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2050,-12810004.6
+Delayed transition,Price|Carbon,EUR2024/tCO2,2020,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2021,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2022,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2023,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2024,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2025,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2026,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2027,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2028,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2029,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2030,37.24003381392
+Delayed transition,Price|Carbon,EUR2024/tCO2,2031,88.53792383990402
+Delayed transition,Price|Carbon,EUR2024/tCO2,2032,139.83581386588807
+Delayed transition,Price|Carbon,EUR2024/tCO2,2033,191.1337038918721
+Delayed transition,Price|Carbon,EUR2024/tCO2,2034,242.4315939178561
+Delayed transition,Price|Carbon,EUR2024/tCO2,2035,293.72948394384014
+Delayed transition,Price|Carbon,EUR2024/tCO2,2036,337.71695586876814
+Delayed transition,Price|Carbon,EUR2024/tCO2,2037,381.7044277936961
+Delayed transition,Price|Carbon,EUR2024/tCO2,2038,425.69189971862403
+Delayed transition,Price|Carbon,EUR2024/tCO2,2039,469.67937164355203
+Delayed transition,Price|Carbon,EUR2024/tCO2,2040,513.66684356848
+Delayed transition,Price|Carbon,EUR2024/tCO2,2041,557.6543154934079
+Delayed transition,Price|Carbon,EUR2024/tCO2,2042,601.641787418336
+Delayed transition,Price|Carbon,EUR2024/tCO2,2043,645.629259343264
+Delayed transition,Price|Carbon,EUR2024/tCO2,2044,689.616731268192
+Delayed transition,Price|Carbon,EUR2024/tCO2,2045,733.60420319312
+Delayed transition,Price|Carbon,EUR2024/tCO2,2046,777.591675118048
+Delayed transition,Price|Carbon,EUR2024/tCO2,2047,821.5791470429759
+Delayed transition,Price|Carbon,EUR2024/tCO2,2048,865.5666189679039
+Delayed transition,Price|Carbon,EUR2024/tCO2,2049,909.5540908928319
+Delayed transition,Price|Carbon,EUR2024/tCO2,2050,953.5415628177599
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2020,10.904991523776001
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2021,10.9750666693248
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2022,11.0451418148736
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2023,11.115216960422401
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2024,11.185292105971202
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2025,11.255367251520001
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2026,11.2489066537344
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2027,11.2424460559488
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2028,11.235985458163197
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2029,11.229524860377596
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2030,11.223064262591995
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2031,11.251030978252798
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2032,11.278997693913599
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2033,11.306964409574402
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2034,11.334931125235205
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2035,11.362897840896006
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2036,10.959769323417605
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2037,10.556640805939205
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2038,10.153512288460803
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2039,9.750383770982403
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2040,9.347255253504002
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2041,9.0073486371456
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2042,8.6674420207872
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2043,8.3275354044288
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2044,7.987628788070401
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2045,7.647722171712001
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2046,7.806626407641601
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2047,7.965530643571201
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2048,8.1244348795008
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2049,8.283339115430401
+Delayed transition,Price|Primary Energy|Coal,EUR2024/MWh,2050,8.44224335136
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2020,21.531224844864003
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2021,22.000524456960004
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2022,22.469824069056003
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2023,22.939123681152005
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2024,23.40842329324801
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2025,23.877722905344008
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2026,23.93933678922241
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2027,24.000950673100803
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2028,24.062564556979204
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2029,24.1241784408576
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2030,24.185792324736
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2031,24.668154703987202
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2032,25.1505170832384
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2033,25.63287946248961
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2034,26.115241841740808
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2035,26.597604220992007
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2036,26.530605576115207
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2037,26.463606931238406
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2038,26.396608286361598
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2039,26.3296096414848
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2040,26.262610996608
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2041,26.677535751820802
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2042,27.0924605070336
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2043,27.5073852622464
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2044,27.922310017459207
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2045,28.33723477267201
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2046,28.33985781527041
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2047,28.34248085786881
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2048,28.345103900467212
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2049,28.34772694306561
+Delayed transition,Price|Primary Energy|Gas,EUR2024/MWh,2050,28.35034998566401
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2020,56.34043246540801
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2021,58.03233033427201
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2022,59.72422820313601
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2023,61.416126072000004
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2024,63.10802394086401
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2025,64.799921809728
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2026,65.840611842432
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2027,66.881301875136
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2028,67.92199190784001
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2029,68.962681940544
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2030,70.00337197324801
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2031,69.19271656657921
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2032,68.3820611599104
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2033,67.5714057532416
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2034,66.7607503465728
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2035,65.950094939904
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2036,66.91003254109441
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2037,67.8699701422848
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2038,68.8299077434752
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2039,69.7898453446656
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2040,70.749782945856
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2041,72.1081688366592
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2042,73.46655472746241
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2043,74.82494061826561
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2044,76.1833265090688
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2045,77.541712399872
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2046,78.5590830186624
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2047,79.5764536374528
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2048,80.59382425624321
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2049,81.6111948750336
+Delayed transition,Price|Primary Energy|Oil,EUR2024/MWh,2050,82.62856549382401
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2020,118.351700808768
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2021,116.26588676424961
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2022,114.18007271973121
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2023,112.0942586752128
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2024,110.0084446306944
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2025,107.92263058617601
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2026,105.46840223458562
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2027,103.01417388299524
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2028,100.55994553140484
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2029,98.10571717981445
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2030,95.65148882822406
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2031,94.75272109094406
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2032,93.85395335366404
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2033,92.95518561638401
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2034,92.05641787910402
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2035,91.157650141824
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2036,91.67073623608321
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2037,92.18382233034241
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2038,92.69690842460162
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2039,93.20999451886081
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2040,93.72308061312002
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2041,90.62428820820482
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2042,87.5254958032896
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2043,84.42670339837441
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2044,81.3279109934592
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2045,78.22911858854401
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2046,75.0597838518528
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2047,71.89044911516162
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2048,68.7211143784704
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2049,65.5517796417792
+Delayed transition,Price|Secondary Energy|Electricity,EUR2024/MWh,2050,62.382444905088
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2020,511553231.282
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2021,458863909.7708
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2022,406174588.25960004
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2023,353485266.74840003
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2024,300795945.2372
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2025,248106623.72599998
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2026,215934433.01719996
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2027,183762242.3084
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2028,151590051.5996
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2029,119417860.8908
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2030,87245670.18200001
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2031,76950043.3732
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2032,66654416.5644
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2033,56358789.7556
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2034,46063162.9468
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2035,35767536.138
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2036,29569092.106399998
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2037,23370648.0748
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2038,17172204.043199997
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2039,10973760.011599999
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2040,4775315.98
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2041,3836030.6880000005
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2042,2896745.396
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2043,1957460.104
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2044,1018174.8119999998
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2045,78889.52
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2046,67850.5428
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2047,56811.56560000001
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2048,45772.5884
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2049,34733.6112
+Delayed transition,Secondary Energy|Electricity|Coal,MWh/yr,2050,23694.634
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2020,828608378.814
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2021,829747449.0376
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2022,830886519.2612001
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2023,832025589.4848001
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2024,833164659.7084
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2025,834303729.932
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2026,765961049.8616
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2027,697618369.7912
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2028,629275689.7208
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2029,560933009.6504
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2030,492590329.58000004
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2031,424058747.99840003
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2032,355527166.4168
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2033,286995584.8352
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2034,218464003.2536
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2035,149932421.67200002
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2036,126050719.5088
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2037,102169017.3456
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2038,78287315.18240002
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2039,54405613.019200005
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2040,30523910.856000002
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2041,27804633.5464
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2042,25085356.236800004
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2043,22366078.9272
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2044,19646801.6176
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2045,16927524.308000002
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2046,15611941.5612
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2047,14296358.8144
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2048,12980776.0676
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2049,11665193.3208
+Delayed transition,Secondary Energy|Electricity|Gas,MWh/yr,2050,10349610.574000001
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2020,45255056.482
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2021,41541510.1072
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2022,37827963.7324
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2023,34114417.3576
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2024,30400870.9828
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2025,26687324.608
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2026,23363948.021199998
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2027,20040571.4344
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2028,16717194.8476
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2029,13393818.2608
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2030,10070441.674
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2031,8056397.784000001
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2032,6042353.894
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2033,4028310.0040000007
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2034,2014266.1140000005
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2035,222.224
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2036,244.44639999999998
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2037,266.6688
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2038,288.8912
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2039,311.11359999999996
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2040,333.336
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2041,350.0028
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2042,366.6696
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2043,383.33639999999997
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2044,400.0032
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2045,416.67
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2046,433.33680000000004
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2047,450.0036
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2048,466.67040000000003
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2049,483.33719999999994
+Delayed transition,Secondary Energy|Electricity|Oil,MWh/yr,2050,500.00399999999996
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2020,762687906.0999999
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2021,700700069.14
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2022,638712232.18
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2023,576724395.22
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2024,514736558.26000005
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2025,452748721.3
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2026,380240473.8
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2027,307732226.29999995
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2028,235223978.8
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2029,162715731.3
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2030,90207483.80000001
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2031,67184123.2
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2032,44160762.60000001
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2033,21137402.000000004
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2034,-1885958.599999995
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2035,-24909319.2
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2036,-26968403.48
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2037,-29027487.759999998
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2038,-31086572.04
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2039,-33145656.32
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2040,-35204740.6
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2041,-36461466.76
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2042,-37718192.92
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2043,-38974919.08
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2044,-40231645.24
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2045,-41488371.4
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2046,-42043762.14
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2047,-42599152.88
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2048,-43154543.620000005
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2049,-43709934.360000014
+Net Zero 2050,Emissions|CO2|Energy|Supply|Electricity,tCO2/yr,2050,-44265325.10000001
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2020,37.24003381392
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2021,70.542291646176
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2022,103.844549478432
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2023,137.14680731068802
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2024,170.449065142944
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2025,203.75132297520003
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2026,238.46451133724807
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2027,273.17769969929606
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2028,307.8908880613441
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2029,342.60407642339214
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2030,377.31726478544016
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2031,434.19279991315216
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2032,491.0683350408641
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2033,547.9438701685762
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2034,604.8194052962881
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2035,661.694940424
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2036,718.5704755517121
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2037,775.446010679424
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2038,832.3215458071361
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2039,889.1970809348481
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2040,946.0726160625601
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2041,1002.94815116048
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2042,1059.8236862584001
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2043,1116.69922135632
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2044,1173.57475645424
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2045,1230.45029155216
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2046,1261.5502464212482
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2047,1292.650201290336
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2048,1323.750156159424
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2049,1354.850111028512
+Net Zero 2050,Price|Carbon,EUR2024/tCO2,2050,1385.9500658975999
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2020,10.904991523776001
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2021,11.145033544780802
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2022,11.3850755657856
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2023,11.625117586790402
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2024,11.865159607795201
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2025,12.105201628800002
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2026,11.506007943360002
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2027,10.90681425792
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2028,10.307620572480001
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2029,9.708426887040002
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2030,9.1092332016
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2031,8.8046589915648
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2032,8.500084781529601
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2033,8.1955105714944
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2034,7.8909363614592
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2035,7.586362151424001
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2036,7.36071152544
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2037,7.1350608994560005
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2038,6.909410273472001
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2039,6.683759647488001
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2040,6.458109021504001
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2041,6.5486256022656
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2042,6.639142183027201
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2043,6.7296587637888
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2044,6.8201753445504005
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2045,6.910691925312
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2046,7.3156838251392005
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2047,7.720675724966401
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2048,8.1256676247936
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2049,8.5306595246208
+Net Zero 2050,Price|Primary Energy|Coal,EUR2024/MWh,2050,8.935651424448
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2020,21.531224844864003
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2021,21.85745253592321
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2022,22.183680226982403
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2023,22.509907918041606
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2024,22.8361356091008
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2025,23.162363300160006
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2026,23.627913624806403
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2027,24.093463949452808
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2028,24.559014274099205
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2029,25.024564598745602
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2030,25.490114923392007
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2031,26.402717636467205
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2032,27.315320349542404
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2033,28.227923062617606
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2034,29.140525775692804
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2035,30.053128488768
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2036,30.3282741492864
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2037,30.603419809804805
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2038,30.878565470323203
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2039,31.153711130841604
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2040,31.42885679136
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2041,30.650617523635205
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2042,29.8723782559104
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2043,29.0941389881856
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2044,28.315899720460802
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2045,27.537660452736
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2046,27.132255957542398
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2047,26.7268514623488
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2048,26.3214469671552
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2049,25.9160424719616
+Net Zero 2050,Price|Primary Energy|Gas,EUR2024/MWh,2050,25.510637976768002
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2020,56.34043246540801
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2021,56.926225864166405
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2022,57.5120192629248
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2023,58.09781266168321
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2024,58.683606060441605
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2025,59.26939945920001
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2026,59.88413620304641
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2027,60.4988729468928
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2028,61.11360969073921
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2029,61.7283464345856
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2030,62.34308317843201
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2031,62.035839486028806
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2032,61.7285957936256
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2033,61.4213521012224
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2034,61.114108408819206
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2035,60.806864716416
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2036,61.6379217681024
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2037,62.46897881978881
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2038,63.3000358714752
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2039,64.13109292316162
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2040,64.962149974848
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2041,65.92789962581762
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2042,66.89364927678722
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2043,67.8593989277568
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2044,68.82514857872641
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2045,69.79089822969601
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2046,70.7229557741952
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2047,71.65501331869442
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2048,72.5870708631936
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2049,73.5191284076928
+Net Zero 2050,Price|Primary Energy|Oil,EUR2024/MWh,2050,74.451185952192
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2020,118.351700808768
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2021,119.1901137912576
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2022,120.02852677374722
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2023,120.86693975623685
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2024,121.70535273872645
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2025,122.54376572121605
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2026,123.36477719650566
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2027,124.18578867179525
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2028,125.00680014708485
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2029,125.82781162237445
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2030,126.64882309766406
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2031,123.14790690451204
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2032,119.64699071136003
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2033,116.14607451820804
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2034,112.64515832505603
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2035,109.14424213190401
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2036,103.06534589729281
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2037,96.98644966268161
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2038,90.9075534280704
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2039,84.8286571934592
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2040,78.74976095884801
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2041,74.8572193684224
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2042,70.96467777799681
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2043,67.07213618757122
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2044,63.17959459714561
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2045,59.28705300672001
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2046,59.110541770291206
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2047,58.934030533862405
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2048,58.75751929743361
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2049,58.58100806100481
+Net Zero 2050,Price|Secondary Energy|Electricity,EUR2024/MWh,2050,58.40449682457601
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2020,511553231.282
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2021,448489087.884
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2022,385424944.48599994
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2023,322360801.08799994
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2024,259296657.68999994
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2025,196232514.292
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2026,164967153.06
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2027,133701791.82799998
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2028,102436430.596
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2029,71171069.364
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2030,39905708.132
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2031,31946266.679199997
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2032,23986825.2264
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2033,16027383.773599997
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2034,8067942.320799998
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2035,108500.868
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2036,101389.7
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2037,94278.532
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2038,87167.364
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2039,80056.19599999998
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2040,72945.02799999999
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2041,66372.75319999999
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2042,59800.47839999999
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2043,53228.2036
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2044,46655.9288
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2045,40083.654
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2046,34950.2796
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2047,29816.905200000005
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2048,24683.5308
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2049,19550.1564
+Net Zero 2050,Secondary Energy|Electricity|Coal,MWh/yr,2050,14416.782000000001
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2020,828608378.814
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2021,823963680.5455999
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2022,819318982.2772
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2023,814674284.0087998
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2024,810029585.7403998
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2025,805384887.4719996
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2026,684586715.5387996
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2027,563788543.6055998
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2028,442990371.6723998
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2029,322192199.7391999
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2030,201394027.80599996
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2031,164553727.53039998
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2032,127713427.25479996
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2033,90873126.97919996
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2034,54032826.703599975
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2035,17192526.428
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2036,15189899.296
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2037,13187272.163999999
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2038,11184645.032
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2039,9182017.9
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2040,7179390.768
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2041,5973453.3428
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2042,4767515.917599999
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2043,3561578.4924
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2044,2355641.0672
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2045,1149703.642
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2046,961152.1336000001
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2047,772600.6252
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2048,584049.1168
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2049,395497.60839999997
+Net Zero 2050,Secondary Energy|Electricity|Gas,MWh/yr,2050,206946.1
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2020,45255056.482
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2021,41541510.1072
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2022,37827963.7324
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2023,34114417.3576
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2024,30400870.9828
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2025,26687324.608
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2026,23363948.021199998
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2027,20040571.4344
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2028,16717194.8476
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2029,13393818.2608
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2030,10070441.674
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2031,8056397.784000001
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2032,6042353.894
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2033,4028310.0040000007
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2034,2014266.1140000005
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2035,222.224
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2036,244.44639999999998
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2037,266.6688
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2038,288.8912
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2039,311.11359999999996
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2040,333.336
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2041,350.0028
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2042,366.6696
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2043,383.33639999999997
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2044,400.0032
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2045,416.67
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2046,433.33680000000004
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2047,450.0036
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2048,466.67040000000003
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2049,483.33719999999994
+Net Zero 2050,Secondary Energy|Electricity|Oil,MWh/yr,2050,500.00399999999996
